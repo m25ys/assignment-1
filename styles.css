@@ -384,24 +384,7 @@ input:focus, textarea:focus {
 	gap: 12px;
 	padding: 18px 0;
 }
-.to-top {
-	color: var(--muted);
-	text-decoration: none;
-	border: 1px solid var(--border);
-	padding: 8px 10px;
-	border-radius: 8px;
-}
-.to-top:hover { color: var(--text); background: var(--elev-2); }
 
-/* Responsiveness */
-@media (max-width: 1000px) {
-	.hero-inner,
-	.about-grid,
-	.contact-grid {
-		grid-template-columns: 1fr;
-	}
-	.hero-visual { order: -1; justify-self: start; width: 100%; aspect-ratio: 16/9; }
-}
 
 @media (max-width: 720px) {
 	.section { padding: 60px 0; }
