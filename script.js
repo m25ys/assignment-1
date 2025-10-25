@@ -1,4 +1,4 @@
-// script.js
+// script.js w
 // Utility: on DOM ready
 function onReady(cb) {
 	if (document.readyState === 'loading') {
